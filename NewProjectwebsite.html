@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<title>My New Web Site</title>
+<head>
+<style>
+          body
+    {
+         background-color:#9c9f84;
+        margin: 0Px;
+        font-family: Verdana,  Georgia,serif;
+       font-size: 14px;
+    }
+     #header{
+
+    background-color:#5c755e;
+    margin: 10px;
+    height: 90px;
+      border-radius:5px;
+
+  
+     
+      }
+  #navbar  ul  {
+
+			
+                      padding: 5px;
+                     list-style-type: none;
+                     text-align:center;
+                      background-color:#000;
+                    margin:10px;
+                    border-radius: 5px;       
+   }
+#navbar ul li{
+
+     display:  inline;
+
+
+}
+#navbar ul li a{
+
+texr-decoration:none;
+ fony-family:arial;
+padding: .2em  1em;
+color:  #fff;
+    background-color:#000;
+	
+
+}
+#navbar  ul li a:hover{
+
+   color:#000;
+    background-color:#fff;
+
+}
+  .m {
+               background-color:#e5e4d7;
+                       margin-left: 10px;
+                      margin-right:320px;
+                     margin-top:10px;
+                      margin-bottom:10px;           
+                      border-radius:5px;
+                       padding: 20px;
+                       font-size: 110%;
+
+        }
+.main{
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+   h1{
+      font-size:120%;
+       color:#ce282e;
+
+
+
+}
+  p  {
+             font-size:120%;
+		  max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+h2{
+font-size:120%;
+		
+
+
+}
+h3{
+   font-size:120%;
+       color:#ce282e;
+
+max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+h4
+{
+
+  font-size:120%;
+       color:#ce282e;
+      max-width: 500px;
+    margin: auto;
+		padding: 10px;
+
+}
+#footer{
+ background-color:#5c755e;
+margin:10px;
+height:60px;
+ clear:both;
+border-radius:5px;
+color:#efe5d0;
+text-align:center;
+padding:15px;
+font-size:90%;
+
+
+
+
+}
+
+#footer ul  {
+
+			
+                      padding: 5px;
+                     list-style-type: none;
+                     text-align:center;
+                      
+                    margin:10px;
+                    border-radius: 5px;       
+   }
+#footer  ul li{
+
+     display:  inline;
+
+
+}
+#footer ul li a{
+
+texr-decoration:none;
+ fony-family:arial;
+padding: .2em  1em;
+color:  #efe5d0;
+    background-color:#5c755e;
+	
+
+}
+#footer  ul li a:hover{
+
+   color:#000;
+    background-color:#fff;
+
+}
+h5{
+ font-size:250%;
+text-align:center;
+color:#e5e4d7;
+font-family: "Century Gothic", "Gill Sans", Arial,sans serif;
+
+
+}
+</style>
+</head>
+<body>
+     <div  id="header">
+        <h5>LINUX  PROGRAMMING</h5>
+      </div>
+         <div   id="navbar">
+                    <ul>
+                               <li><a  href="  https://www.whoishostingthis.com/resources/linux-programming/ ">Home</a><li>
+                              <li><a href="  https://www.linuxprogrammingblog.com/code-examples"> Examples</a></li>
+                               <li><a  href="  https://www.shellscript.sh/">ShellScript</a><li>
+                              <li><a href=" https://www.javatpoint.com/shell-scripting-tutorial "> More</a></li>
+                    </ul>
+            
+          </div>
+          <div class="main">
+          <h1>  a) Write a shell script that accepts a file name, starting and ending line numbers as
+arguments and displays all the lines between the given line numbers. </h1>
+   <h2>->You  have to create a    new file   and write something on that file .
+              Save the file  (filename)<br>
+                
+                        </h2><p>1)Linux, like its predecessor Unix, is an open source       operating system kernel. <br>
+
+2)Since Linux is protected under the GNU Public License,               many users have imitated and altered Linux source code.<br>
+ 3)Linux programming is compatible with C++, Perl, Java,           and other programming languages.<br>
+                                        
+                                       </p>
+                       <h1>Program   :</h1>   
+                       <h2> save  the File end   .sh </h2>
+   <p> echo     Enter    A File  Name<br>
+read fname<br>
+echo   Enter The starting LIne <br>
+read  s<br>
+echo  Enter  The  Ending  Line<br>
+read  e<br>
+sed   -n  $s,$e\p $fname </p>
+<h2> file name.sh</h2>
+
+<h1>OUTPUT:</h1>
+  <p>$ sh  filename.sh</p>
+   <h3>Enter    A File  Name</h3>
+  <p>Filename</p>
+<h3>Enter The starting LIne</h3>
+<p>1</p>
+<h3> Enter  The  Ending  Line</h3>
+<p>3<p>
+      
+   <p>Linux, like its predecessor Unix, is an open source       operating system kernel. <br>
+
+Since Linux is protected under the GNU Public License,        many users have imitated and altered Linux source code.</br>
+Linux programming is compatible with C++, Perl, Java,           and other programming languages.<br>
+
+</p>
+<p><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+</p>
+
+
+	  </div>
+
+
+ <div id="footer">
+       <ul>
+            <li><a href=" https://www.digitalocean.com/community/tutorials/brief-history-of-linux">About History</a></li>
+		<li><a href=" https://www.educba.com/careers-in-linux/ ">Careers</a></li>
+		<li><a href="  https://www.linux.org/help/">Help</a></li>
+		<li><a href=" https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin " >Contact Us</a></li>
+   </ul>
+    
+<h4>
+   © Copyright 2014, All Rights Reserved
+      
+</h4>
+
+
+
+
+
+
+</html>
